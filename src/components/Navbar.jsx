@@ -27,8 +27,8 @@ const Navbar = () => {
             {/* TODO: Add theme toggle button */}
             {/* Button should show sun icon for light mode, moon for dark */}
             {/* onClick should call toggleTheme */}
-            <button className="theme-toggle" onClick={() => toggleTheme} >
-              {theme === 'light' ? '🌙' : '🌞'}
+            <button className="theme-toggle" onClick={() => toggleTheme()} >
+              {theme === 'light' ?  '🌞' : '🌙'}
             </button>
 
             <button
